@@ -1,0 +1,204 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #0b3d91; /* Dark Blue from logo */
+}
+.navbar .navbar-brand span {
+    color: #34a853; /* Green from logo */
+}
+.navbar .btn-outline-primary {
+    color: #34a853;
+    border-color: #34a853;
+}
+.navbar .btn-outline-primary:hover {
+    background-color: #34a853;
+    color: white;
+}
+.navbar .btn-primary {
+    background-color: #34a853;
+    border-color: #34a853;
+}
+/* Hero Section */
+.hero {
+    background: url('/mnt/data/A_digital_photograph_for_an_online_medicine_store_.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    max-width: 90%;
+}
+
+/* Carousel Text */
+
+.carousel-item {
+    position: relative;
+    height: 480px;
+}
+.carousel-item img {
+    height: 450px; /* Keeps it rectangular */
+    object-fit: cover; /* Prevents stretching */
+}
+.carousel-item p{
+    color: #D1E7DD;
+}
+.scroll-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.scroll-wrapper {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;  /* Hides scrollbar for IE and Edge */
+    scrollbar-width: none;  /* Hides scrollbar for Firefox */
+}
+
+.scroll-wrapper::-webkit-scrollbar {
+    display: none; /* Hides scrollbar for Chrome, Safari */
+}
+
+/* Card Styling */
+.card {
+    width: 200px;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 0 0 auto;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Image Styling */
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* Hover Effects */
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+/* Card Text */
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 18px;
+    color: #0b3d91;
+    font-weight: bold;
+}
+
+/* Scroll Buttons */
+.scroll-btn {
+    position: absolute;
+    background-color: rgba(11, 61, 145, 0.8);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: background 0.3s ease;
+}
+
+.scroll-btn:hover {
+    background-color: #34a853;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+
+.features-section {
+    background-color: #f4f8fb; /* Light background for contrast */
+    padding: 60px 0;
+}
+
+.section-title {
+    color: #0b3d91; /* Dark blue */
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.section-title span {
+    color: #34a853; /* Green highlight */
+}
+
+.feature-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+.feature-card img {
+    width: 70px; /* Increased size */
+    height: 70px; /* Maintain aspect ratio */
+    margin-bottom: 15px;
+}
+
+.feature-card h5 {
+    color: #0b3d91;
+    font-weight: bold;
+}
+
+.feature-card p {
+    color: #555;
+    font-size: 14px;
+    flex-grow: 1;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navbar-brand {
+    text-decoration: none !important;
+}

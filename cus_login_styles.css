@@ -1,0 +1,55 @@
+body {
+    background: url('./src/bg_signup.jpg') center/cover no-repeat;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: #0b3d91; /* Dark Blue */
+}
+
+.navbar-brand span {
+    color: #34a853; /* Green */
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-box h2 {
+    color: #0b3d91; /* Dark Blue */
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #34a853;
+    border-color: #34a853;
+}
+
+.btn-primary:hover {
+    background-color: #2a8c3e;
+}
+
+a {
+    text-decoration: none;
+    color: #0b3d91;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.navbar-brand {
+    text-decoration: none !important;
+}

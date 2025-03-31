@@ -1,0 +1,32 @@
+/* Background Image */
+body {
+    background: url('./src/bg_signup.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Registration Card */
+.register-card {
+    background: rgba(255, 255, 255, 0.9); /* White with transparency */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+/* Password Toggle Icon */
+.toggle-password {
+    position: absolute;
+    right: 15px;
+    top: 68%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #0b3d91;
+}
+
+.toggle-password:hover {
+    color: #34a853;
+}
